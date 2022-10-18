@@ -8,30 +8,83 @@
     <title>html-css-toboolist</title>
   </head>
   <body>
+
     <header>
       <div class="title-container">
-        <img style="display: inline-block;"src="./img/logo copia.png" alt="Image not found">
-        <div class="text-title">
+        <img class="img-container" src="./img/logo copia.png" alt="Image not found">
+        <div class="text-container">
           <h1>Toboolist</h1>
         </div>
       </div>
     </header>
+
     <main>
       <div role="card" class="card">
+
         <div role="header-card" class="header-card">
-          <div class="add-task">
-            <div class="text-add-task">Add Task</div>
-          </div>
-          <div class="add-section">
-            <div class="text-add-section">Add Section</div>
-          </div>
+          <div class="add-task">Add Task</div>
+          <div class="add-section">Add Section</div>
         </div>
+
         <div role="body-card"class="body-card">
-          <div>
+          <div role="list-section">
             <ul>
+
               <li>
-                <h3>New Task</h3>
-              </li>           
+                <h3 class="arrow-down">
+                  <span class="pl-1">New Task</span>  <!--padding-left: 1px-->
+                </h3>
+              </li> 
+
+              <li>
+                <div class="to-do" class="list-section">
+                  <p class="inline-block">Quarterly Newsletter</p>
+                  <div class="editorial-btn inline-block">
+                     <div>Editorial</div>
+                  </div>
+                </div>
+              </li> 
+
+            </ul>
+          </div>
+          <div role="list-section">
+            <ul>
+
+                <li>
+                  <h3 class="arrow-down" class="list-section">
+                    <span class="pl-1">New Task</span>  <!--padding-left: 1px-->
+                  </h3>
+                </li> 
+                
+                <li>
+                  <div class="to-do">
+                    <p class="inline-block">Quarterly Newsletter</p>
+                    <div class="editorial-btn inline-block">
+                      <div>Editorial</div>
+                    </div>
+                  </div>
+                </li> 
+
+            </ul>
+          </div>
+          <div role="list-section" class="list-section">
+            <ul>
+
+                <li>
+                  <h3 class="arrow-down">
+                    <span class="pl-1">New Task</span>  <!--padding-left: 1px-->
+                  </h3>
+                </li> 
+                
+                <li>
+                  <div class="to-do">
+                    <p class="inline-block">Quarterly Newsletter</p>
+                    <div class="editorial-btn inline-block">
+                      <div>Editorial</div>
+                    </div>
+                  </div>
+                </li> 
+
             </ul>
           </div>
         </div>

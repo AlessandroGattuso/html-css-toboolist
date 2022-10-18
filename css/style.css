@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+/*utils*/
+
+.pl-1{    
+  padding-left: 1px;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+/*<------->*/
+
 body{
   background-color:  rgb(247, 247, 247);
 }
@@ -14,12 +26,16 @@ header{
 }
 
 .title-container{
-  margin: 10px 30px;
+  padding: 10px 30px;
+  vertical-align: middle;
 }
 
-.text-title{
+.image-container{
   display: inline-block;
-  padding-bottom: 20px 0;
+ }
+
+.text-container{
+  display: inline-block;
 }
 
 .card{
@@ -49,21 +65,46 @@ header{
   background-color: rgba(0, 165, 236, 0.96);
   color: white;
   margin-left: 50px;
+  padding: 4px 8px;
 }
 
 .add-section{
   border-color: rgb(216,220,222);
   color: rgb(216,220,222);
-}
-
-.text-add-task{
-  padding: 4px 8px;
-}
-
-.add-section{
   padding: 4px 10px;
 }
 
+
 .body-card{
-  padding: 10px 40px 10px;
+  padding: 10px 50px 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.arrow-down::before{
+  content: '\25BE'; /*html entity: &blacktriangledown;*/
+}
+
+.to-do{
+  font-size: 17px;
+  margin: 15px 0px;
+}
+
+.to-do::before{
+  padding: 2px 4.5px;
+  color: rgb(19, 174, 5);
+  content: "\2713";
+  border: 1.1px solid rgb(19, 174, 5);
+  border-radius: 20px;
+}
+
+.editorial-btn{
+  font-size: 10px;
+  padding: 5px 10px;
+  background-color: rgba(0, 165, 236, 0.96);
+  border-radius: 12px;
+  border: solid 1.2px rgba(0, 165, 236, 0.96);
+  color: white;
 }
