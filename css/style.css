@@ -7,6 +7,10 @@
 
 /*utils*/
 
+.mtb-5{
+  margin: 10px 0px;
+}
+
 .pl-1{    
   padding-left: 1px;
 }
@@ -61,8 +65,8 @@ header{
 }
 
 .add-task{
-  border-color: rgba(0, 165, 236, 0.96);
-  background-color: rgba(0, 165, 236, 0.96);
+  border-color: rgb(78,160,255);
+  background-color: rgb(78,160,255);
   color: white;
   margin-left: 50px;
   padding: 4px 8px;
@@ -77,6 +81,11 @@ header{
 
 .body-card{
   padding: 10px 50px 10px;
+  margin-top: 30px;
+}
+
+.list-section{
+  margin-bottom: 40px;
 }
 
 ul{
@@ -87,12 +96,13 @@ ul{
   content: '\25BE'; /*html entity: &blacktriangledown;*/
 }
 
-.to-do{
+.to-do-check,
+.to-do-cross{
   font-size: 17px;
   margin: 15px 0px;
 }
 
-.to-do::before{
+.to-do-check::before{
   padding: 2px 4.5px;
   color: rgb(19, 174, 5);
   content: "\2713";
@@ -100,11 +110,47 @@ ul{
   border-radius: 20px;
 }
 
-.editorial-btn{
+.to-do-cross::before{
+  padding: 2px 4.5px;
+  color: rgba(244, 0, 0, 0.639);
+  content: "\2715";
+  border: 1.5px solid rgba(244, 0, 0, 0.639);
+  border-radius: 20px;
+}
+
+.editorial,
+.q1goals,
+.recruiting,
+.mobile,
+.website,
+.sales{
+  display: inline-block;
   font-size: 10px;
-  padding: 5px 10px;
-  background-color: rgba(0, 165, 236, 0.96);
+  padding: 8px 8px;
   border-radius: 12px;
-  border: solid 1.2px rgba(0, 165, 236, 0.96);
   color: white;
+}
+
+.editorial{
+  background-color: rgb(78,160,255);
+}
+
+.q1goals{
+  background-color: rgb(157,114,228);
+}
+
+.recruiting{
+  background-color: rgb(100,192,169);
+}
+
+.mobile{
+  background-color: rgb(242,158,51);
+}
+
+.website{
+  background-color: rgb(215,99,161);
+}
+
+.sales{
+  background-color: rgb(177,201,37);
 }
