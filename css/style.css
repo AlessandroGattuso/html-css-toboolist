@@ -22,6 +22,8 @@
 /*<------->*/
 
 header{
+  height: 80px;
+  padding: 10px 20px;
   background-color: white;
 }
 
@@ -29,18 +31,15 @@ body{
   background-color:  rgb(247, 247, 247);
 }
 
-.title-container{
-  height: 70px;
-  padding: 10px 10px;
+.logo{
+  height: 100%;
   vertical-align: middle;
 }
 
-.text-container{
-  width: auto;
-  margin-bottom: 50px;
-  display: inline-block;
+.text-header{
   vertical-align: middle;
   font-size: 40px;
+  font-weight: 800;
 }
 
 .card{
@@ -80,8 +79,7 @@ body{
 }
 
 .body-card{
-  padding: 10px 50px 10px;
-  margin-top: 30px;
+  padding: 40px 50px 10px;
 }
 
 .list-section{
