@@ -51,14 +51,14 @@ ul{
 
 
 /* Main */
-.card{
+[role=card]{
   background-color: white;
   border-radius: 10px;
   width: 70%;
   margin: 30px auto 20px;
 }
 
-.header-card{
+[role=header-card]{
   height: 50px;
   border-bottom: solid 2.5px rgb(247, 247, 247);
 }
@@ -87,7 +87,7 @@ ul{
   padding: 4px 10px;
 }
 
-.body-card{
+[role=body-card]{
   padding: 40px 50px 10px;
 }
 
