@@ -15,12 +15,13 @@
   padding-left: 1px;
 }
 
-.inline-block{
-  display: inline-block;
+.inline{
+  display: inline;
 }
 
 /*<------->*/
 
+/* tags */
 header{
   height: 80px;
   padding: 10px 20px;
@@ -31,6 +32,12 @@ body{
   background-color:  rgb(247, 247, 247);
 }
 
+ul{
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+
+/* Header */
 .logo{
   height: 100%;
   vertical-align: middle;
@@ -42,11 +49,13 @@ body{
   font-weight: 800;
 }
 
+
+/* Main */
 .card{
   background-color: white;
   border-radius: 10px;
-  width: auto;
-  margin: 40px 250px 10px;
+  width: 70%;
+  margin: 30px auto 20px;
 }
 
 .header-card{
@@ -80,14 +89,6 @@ body{
 
 .body-card{
   padding: 40px 50px 10px;
-}
-
-.list-section{
-  margin-bottom: 40px;
-}
-
-ul{
-  list-style-type: none;
 }
 
 .arrow-down::before{
