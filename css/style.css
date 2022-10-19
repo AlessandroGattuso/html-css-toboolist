@@ -63,8 +63,7 @@ ul{
   border-bottom: solid 2.5px rgb(247, 247, 247);
 }
 
-.add-task,
-.add-section{
+.button{
   display: inline-block;
   width: auto;
   font-size: 15px;
@@ -95,13 +94,12 @@ ul{
   content: '\25BE'; /*html entity: &blacktriangledown;*/
 }
 
-.to-do-check,
-.to-do-cross{
+.mark{
   font-size: 17px;
   margin: 15px 0px;
 }
 
-.to-do-check::before{
+.check::before{
   padding: 2px 4.5px;
   color: rgb(19, 174, 5);
   content: "\2713";
@@ -109,7 +107,7 @@ ul{
   border-radius: 20px;
 }
 
-.to-do-cross::before{
+.cross::before{
   padding: 2px 4.5px;
   color: rgba(244, 0, 0, 0.639);
   content: "\2715";
@@ -117,12 +115,7 @@ ul{
   border-radius: 20px;
 }
 
-.editorial,
-.q1goals,
-.recruiting,
-.mobile,
-.website,
-.sales{
+.label{
   display: inline-block;
   font-size: 10px;
   padding: 8px 15px;
